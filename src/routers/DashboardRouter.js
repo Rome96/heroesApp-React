@@ -8,7 +8,7 @@ import HeroesScreen from '../components/heroes/HeroesScreen';
 export const DashboardRouter = () => {
   return <>
     <Navbar />
-    <div>
+    <div className='container'>
       <Switch>
         <Route exact path="/marvel" component={MarvelScreen} />
         <Route exact path="/heroe/:heroeId" component={HeroesScreen} />
