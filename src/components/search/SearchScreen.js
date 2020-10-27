@@ -4,7 +4,6 @@ import HeroCard from '../heroes/HeroCard';
 import { useForm } from '../hooks/useForm';
 import { useLocation } from 'react-router-dom';
 import { getHeroesByName } from '../selectors/getHeroesByName';
-import { heroes } from '../data/heroes';
 
 const SearchScreen = ({history}) => {
   const location = useLocation();
