@@ -6,8 +6,8 @@ import { PrivateRouter } from './PrivateRouter';
 import { AuthContext } from '../components/auth/AuthContext';
 
 export const AppRouter = () => {
-  const { user:{logged} } = useContext(AuthContext)
-  console.log(logged);
+  const { user:{logged} } = useContext(AuthContext);
+
   return <Router>
     <div>
       <Switch>
